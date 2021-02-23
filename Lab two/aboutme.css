@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(99, 122, 129);
+}
+h1 {
+    color: darkorange;
+    font-size: 65px;
+}
+h2 {
+    color: greenyellow;
+}
+.givecolor {
+    color: black;
+}
