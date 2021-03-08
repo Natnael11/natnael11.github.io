@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filling Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="https://www.google.com/webhp">
+        <div>
+           <!-- <div>
+                <label for="name">First name</label>
+           </div>  -->
+           <label for="name">First name</label> <br>
+            <input type="text" name="name" id="name" placeholder="username" required >
+        </div>
+        <div>
+             <label for="name">Middle name(optional)</label> <b></b>
+             <input type="text" name="name" id="name" placeholder="middlenamee" required>
+             
+        </div>
+        <div>
+            <label for="lastname">Last name</label><br>
+            <input type="password" name="password" placeholder="lastname" required>
+        </div>
+        <div>
+              <label for="suffix">Suffix (optional) </label> <br>
+              <input type="text" name="suffix" id="suffix" placeholder="suffix" required>      
+        </div>
+        <div>
+            <div>
+                 <label for="name">Residential address line 1</label> <br>
+                 <input type="text" name="name" id="name" placeholder="address" required>
+             </div>
+        </div>
+        <div id="address">
+            <div>
+              City <br />
+              <input type="text" placeholder="Enter Your City" required />
+            </div>
+            <div>
+              State <br />
+              <input list="state-list" name="State" />
+              <datalist id="state-list">
+                <option value="Virginia"></option>
+                <option value="Iowa"></option>
+                <option value="California"></option>
+                <option value="Texas"></option>
+                <option value="NewYork"></option>
+                <option value="New Jersey"></option>
+              </datalist>
+            </div>
+            <div>
+              Zip Code <br />
+              <input type="number" placeholder="Enter your zip code" required />
+            </div>
+          </div>
+        <div>
+               <div>
+                   <label for="phone">Phone Number</label>
+               </div>
+               <input type="tel" name="phone" id="phone" placeholder="(123)-4567-8901">
+                <div>
+                     <label for="mobile">Mobile</label> <input type="radio" name="tel" id="mobile">
+                 
+                    <label for="mobile">Home</label> <input type="radio" name="tel" id="home">
+                <div>
+             <br>
+        </div>
+        <div>
+          <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="name on the card">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+        </div>
+        <div>
+            <label><input type="radio" name="cc" value="visa" checked="checked" /> Visa</label>
+            <label><input type="radio" name="cc" value="mastercard" /> MasterCard</label>
+            <label><input type="radio" name="cc" value="amex" /> American Express</label>
+        </div>
+        <div>
+            <div>
+                  <label for="email">Email addresse</label><br>
+                 <input type="email" name="email" id="email" placeholder="email" required>
+             </div>
+        </div>
+        <div>
+            <div>
+                  <label for="date">Date of birth</label><br>
+                 <input type="date" name="date" id="date" required>
+             </div>
+        </div>
+        <br>
+        <button type="submit"> submit</button>
+        
+    </form>
+    <div >
+        <a
+          href="https://validator.w3.org/check/referer"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+          <img src="html5_validator.png" alt="validator" />
+        </a>
+        <br />
+        <a
+          href="https://jigsaw.w3.org/css-validator/check/referer"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+          <img
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="css-validator" />
+        </a>
+      </div>
+      
+</body>
+</html>

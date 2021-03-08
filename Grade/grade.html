@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="http://mumstudents.org/params.php">
+        <fieldset>
+            <h1>Retrieve your grade</h1>
+            Name: <br>
+            <input type="text" name="name"><br>
+            Strudent ID: <br>
+            <input type="studentId" name="studentId"><br>
+            Chose Assignment
+            <select name="grade" size="4">
+                <optgroup label="Home Page">
+                    <option selected value="wap">WAP</option>
+                    <option value="waa">WAA</option>
+                    <option value="asd">ASD</option>
+                    <option value="bid data">Big Data</option>
+                </optgroup>
+
+            </select> <br><br>
+            Entry Year: <br>
+            <input type="radio" id="course" name="course" value="nov 2020" checked>Nov 2020
+            <input type="radio" id="course" name="course" value="aug 2020">Aug 2020
+            <br><br>
+
+            <input type="checkbox" id="grade" name="grade" value="grade">Are you sure you wanna look your grade:
+
+
+            <br><br>
+            <input type="submit" value="Get Grade!">
+        </fieldset>
+    </form>
+    <div id="validation">
+        <a href="https://validator.w3.org/check/referer">
+            <img alt="Validate" src="images/w3c-html.png">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img alt="Valid CSS!" src="images/w3c-css.png">
+        </a>
+    </div>
+
+</body>
+
+</html>

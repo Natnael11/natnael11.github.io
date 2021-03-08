@@ -1,0 +1,40 @@
+
+h1 {
+    text-align: center;
+    color: #A4A400 ;
+    background-color: #F0F0F0 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.p {
+    text-indent: 50px;
+   
+    
+}
+.par{
+    background-color: #A4A400 ;
+
+}
+h2  {
+    color: #A4A400 ;
+    background-color: #F0F0F0 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:link {
+    color: #A4A400 ;
+}
+a:visited {
+    color:teal;
+}
+a:hover {
+    color: #FF00FF;
+    }
+a:active {
+     color: #0000FF;
+ }  
+.copy1 {
+    text-indent: 30px;
+}  
+.copy2 {
+    text-indent: 50px;
+}
